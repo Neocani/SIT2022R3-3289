@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<RibbonBar BuiltinTheme="0" Font="FaceName:Tahoma; TextSize:8">
+  <RibbonItems>
+    <ApplicationButton Text="Menu Principal" Enabled="true" Tag="RibbonBar Demo" Visible="true">
+      <ApplicationMenu>
+          <Master>
+              <Item Tag="Clave" Text="Clave" PictureName="CreateForeignKey!" Clicked="ue_clave" />
+          	<Item Tag="Salir" Text="Salir" PictureName="Exit!" Clicked="ue_salir" />
+          <Item Type="1" /><!-- Type="Separator!"-->
+        </Master>
+        </ApplicationMenu>
+    </ApplicationButton>
+    <Categories>
+ <!--Administracion-->
+      <Category Text="Administracion" Enabled="true" Tag="administracion" Visible="true">
+        <Panel Text="Administracion" Enabled="true" Tag="administracion_p1" PictureName="ClipWindow!">
+          <SmallButton Text="Parametros" PictureName="AccountSettingsBig!" Tag="" Clicked="ue_10"/>
+          <SmallButton Text="Series" PictureName="MoveToSmall!"  Tag="" Clicked="ue_11"/>
+          <SmallButton Text="Usuarios" PictureName="AccountBig!" Tag="" Clicked="ue_12"/>
+          <SmallButton Text="Areas Usuario" PictureName="CustomerBig!" Tag="" Clicked="ue_13"/>
+          <SmallButton Text="Imagenes" PictureName="AppBig!" Tag="" Clicked="ue_14"/>
+        </Panel>
+        <Panel Text="Datos" Enabled="true" Tag="administracion_p2" PictureName="ControlTreeView!">
+          <SmallButton Text="Tractos" PictureName="Deploy!"  Tag="" Clicked="ue_20"/>
+          <SmallButton Text="Carretas" PictureName="DeployTarget!" Tag="" Clicked="ue_21"/>
+          <SmallButton Text="Param. Consumo" PictureName="Paste!" Tag="" Clicked="ue_22"/>
+          <SmallButton Text="Trabajadores" PictureName="Paste!" Tag="" Clicked="ue_23"/>
+          <SmallButton Text="Conf. Transporte" PictureName="Paste!" Tag="" Clicked="ue_24"/>
+        </Panel>
+        <Panel Text="Documentos" Enabled="true" Tag="administracion_p3" PictureName="ControlTreeView!">
+          <SmallButton Text="Anular Factura" PictureName="DropObject!"  Tag="" Clicked="ue_30"/>
+          <SmallButton Text="Eliminar Factura" PictureName="RemoveAccessBig!" Tag="" Clicked="ue_31"/>
+          <SmallButton Text="Anular Ord. Trabaj." PictureName="RetrieveCancel1!" Tag="" Clicked="ue_32"/>
+          <SmallButton Text="Eliminar Ord. Trabaj." PictureName="RetrieveCancel!" Tag="" Clicked="ue_33"/>
+            <SmallButton Text="Anular Guia Trasnp." PictureName="CloseSmall!" Tag="" Clicked="ue_35"/>
+          <SmallButton Text="Eliminar Guia Trasnp." PictureName="CloseAllBig!" Tag="" Clicked="ue_36"/>
+          <SmallButton Text="Eliminar Compras" PictureName="Custom021!" Tag="" Clicked="ue_37"/>
+          <SmallButton Text="Desactivar Docs." PictureName="CheckBoxDisabledChecked4Blue!" Tag="" Clicked="ue_38"/>
+      </Panel>
+        <Panel Text="Liquidaciones Choferes" Enabled="true" Tag="administracion_p4" PictureName="ControlTreeView!">
+          <LargeButton Text="Liquidacion Chofer" PictureName="AccountingNumberFormatBig!"  Tag="" Clicked="ue_40"/>
+          <LargeButton Text="Listado Liquid." PictureName="Copy!" Tag="" Clicked="ue_41"/>
+           <SmallButton Text="Liquid. x Fechas" PictureName="FitPageWidthBig!" Tag="" Clicked="ue_44"/>
+          <SmallButton Text="Eliminar Liquid." PictureName="DeleteWatch2!" Tag="" Clicked="ue_42"/>
+          <SmallButton Text="HR sin Liquid." PictureName="Paste!" Tag="" Clicked="ue_43"/>
+        </Panel>
+        <Panel Text="Periodos" Enabled="true" Tag="administracion_p5" PictureName="ControlTreeView!">
+          <LargeButton Text="Comprobantes" PictureName="ComputeToday!"  Tag="" Clicked="ue_50"/>
+         </Panel>
+        <Panel Text="Estadisticas" Enabled="true" Tag="administracion_p6" PictureName="ControlTreeView!">
+          <LargeButton Text="Estadisticas Ventas" PictureName="AlignBottom1!"  Tag="" Clicked="ue_60"/>
+          </Panel>
+      </Category>
+<!--Contabilidad-->
+      <Category Text="Contabilidad" Enabled="true" Tag="contabilidad" Visible="true">
+        <Panel Text="Parametros" Enabled="true" Tag="contablilidad_p0" PictureName="ControlTreeView!">
+        <LargeButton Text="Parametros" PictureName="OptionsBig!" Tag="" Clicked="ue_300"/>
+        </Panel>
+        <Panel Text="Guias Transportista" Enabled="true" Tag="contablilidad_p1" PictureName="ControlTreeView!">
+          <LargeButton Text="Guias Transporte" PictureName="DosEdit!" Tag="" Clicked="ue_70"/>
+          <LargeButton Text="Guias Sub Contratadas" PictureName="ToDoList!"  Tag="" Clicked="ue_71"/>
+          <LargeButton Text="Listado de Guias" PictureName="Custom023a!" Tag="" Clicked="ue_72"/>
+          <LargeButton Text="Listado de Guias x Cliente" PictureName="FolderSmall!" Tag="" Clicked="ue_73"/>
+        </Panel>
+        <Panel Text="Facturacion" Enabled="true" Tag="ClipBoard" PictureName="ControlTreeView!">
+            <LargeButton Text="Codigos Sunat" PictureName="Strikethrough1!"  Tag="" Clicked="ue_74"/>
+          <LargeButton Text="Clientes" PictureName="EmployeeSmall!"  Tag="" Clicked="ue_75"/>
+          <LargeButton Text="Orden Trabajo" PictureName="BOMBig!" Tag="" Clicked="ue_76"/>
+          <LargeButton Text="Factura\Boleta Simple" PictureName="ShowOnePageSmall!"  Tag="" Clicked="ue_77"/>
+          <LargeButton Text="Factura\Boleta Especial" PictureName="ReportsBig!" Tag="" Clicked="ue_78"/>
+          <LargeButton Text="Factura\Boleta Exonerada" PictureName="DosEdit1!" Tag="" Clicked="ue_119"/>
+          <LargeButton Text="Nota Credito" PictureName="UpdateTableBig!" Tag="" Clicked="ue_79"/>
+          <LargeButton Text="Nota Debito" PictureName="TableOfContentsSmall!" Tag="" Clicked="ue_80"/>          
+        </Panel>
+       <Panel Text="Pendientes-Cancelados" Enabled="true" Tag="ClipBoard" PictureName="ControlTreeView!">
+          <LargeButton Text="Pendientes Cobrar" PictureName="Custom048!"  Tag="" Clicked="ue_81"/>
+          <SmallButton Text="Pendientes Pagar" PictureName="Custom048a!" Tag="" Clicked="ue_82"/>
+          <SmallButton Text="Pendientes Cliente" PictureName="Custom027a!" Tag="" Clicked="ue_83"/>
+          <SmallButton Text="Cancelados Cliente" PictureName="Custom026a!" Tag="" Clicked="ue_84"/>
+          </Panel> 
+          <Panel Text="Reportes - Reimmpresion" Enabled="true" Tag="ControlTreeView" PictureName="ControlTreeView!">
+          <LargeButton Text="Listado Facturacion" PictureName="CopyToSmall!" Tag="" Clicked="ue_92"/>
+         <SmallButton Text="Listado Orden Trabajo" PictureName="Copy1!" Tag="" Clicked="ue_93"/>
+          <SmallButton Text="Facturacion x Periodo" PictureName="Custom023!" Tag="" Clicked="ue_94"/>
+          <SmallButton Text="Reimpresion Documentos" PictureName="PrintSmall!"  Tag="" Clicked="ue_91"/>
+          </Panel> 
+    </Category>
+<!--Transporte-->
+   <Category Text="Transporte" Enabled="true" Tag="transporte" Visible="true">
+        <Panel Text="Datos" Enabled="true" Tag="transporte_p1" PictureName="ControlTreeView!">
+          <LargeButton Text="Choferes" PictureName="Custom076!" Tag="" Clicked="ue_100"/>
+          <LargeButton Text="Config. Transporte" PictureName="AccountSettingsBig!"  Tag="" Clicked="ue_101"/>
+          <LargeButton Text="Param. Consumo" PictureName="ComputePage1!" Tag="" Clicked="ue_102"/>
+          <LargeButton Text="Unidades(Tractos)" PictureName="Deploy!" Tag="" Clicked="ue_103"/>
+        </Panel>
+        <Panel Text="Transporte" Enabled="true" Tag="transporte_p2" PictureName="ControlTreeView!">
+          <LargeButton Text="Transporte" PictureName="SaveChanges!" Tag="" Clicked="ue_201"/>
+          <LargeButton Text="Editar Transporte" PictureName="ModifyBig!" Tag="" Clicked="ue_202"/>
+          <LargeButton Text="Eliminar Transporte" PictureName="Delete!" Tag="" Clicked="ue_203"/>
+          <LargeButton Text="Movimientos Diarios" PictureName="Paste!" Visible="false" Tag="" Clicked="ue_204"/>
+          <LargeButton Text="Editar Transp. Afiliados" PictureName="Paste!" Visible="false" Tag="" Clicked="ue_205"/>
+        </Panel>
+         <Panel Text="Hojas de Ruta" Enabled="true" Tag="transporte_p3" PictureName="ControlTreeView!">
+          <LargeButton Text="Registro Hoja Ruta" PictureName="OrderReportSmall!" Tag="" Clicked="ue_206"/>
+          <LargeButton Text="Listado Hojas de Ruta" PictureName="Custom071!" Tag="" Clicked="ue_207"/>
+          <LargeButton Text="Editar Hoja Ruta" PictureName="EditBig!" Tag="" Clicked="ue_208"/>
+          <LargeButton Text="Eliminar Hoja Ruta" PictureName="Clear!" Visible="true" Tag="" Clicked="ue_209"/>
+        </Panel>
+       </Category>
+       <!--Almacen-->
+   <Category Text="Almacen" Enabled="true" Tag="almacen" Visible="true">
+        <Panel Text="Datos" Enabled="true" Tag="almacen_p1" PictureName="ControlTreeView!">
+          <LargeButton Text="Proveedores" PictureName="Custom076a!" Tag="" Clicked="ue_400"/>
+          <LargeButton Text="Unidades Articulos" PictureName="Parameter1!" Tag="" Clicked="ue_401"/>
+          <LargeButton Text="Marcas Articulos" PictureName="ToolkitDebugger!" Tag="" Clicked="ue_402"/>
+          <LargeButton Text="Grupos \ Articulos" PictureName="CreateLibrary!" Tag="" Clicked="ue_403"/>
+       </Panel>
+        <Panel Text="Kardex" Enabled="true" Tag="almacen_p2" PictureName="ControlTreeView!">
+         <LargeButton Text="Nota Ingreso" PictureName="PageDownBig!" Tag="" Clicked="ue_404"/>
+         <LargeButton Text="Nota Salida" PictureName="PageUpBig!" Tag="" Clicked="ue_405"/>
+         <LargeButton Text="Kardex Articulo" PictureName="Synchronizer!" Tag="" Clicked="ue_406"/>
+          <LargeButton Text="Listado Notas Ingreso" PictureName="Custom070!" Tag="" Clicked="ue_407"/>
+         <LargeButton Text="Listado Notas Salida" PictureName="Custom070a!" Tag="" Clicked="ue_408"/>
+         <LargeButton Text="Listado Anulados" PictureName="ToolkitConfigGuide!" Tag="" Clicked="ue_409"/>
+        </Panel>
+       </Category>
+         <!--Mantenimiento-->
+   <Category Text="Mantenimiento" Enabled="true" Tag="mantenimiento" Visible="true">
+        <Panel Text="Combustible" Enabled="true" Tag="mantenimiento_p1" PictureName="ControlTreeView!">
+          <LargeButton Text="Llenado Tanque" PictureName="DBAdmin1!" Tag="" Clicked="ue_500"/>
+          <LargeButton Text="Despacho Combustible" PictureName="Destination2!" Tag="" Clicked="ue_501"/>
+          <LargeButton Text="Listado General Despachos" PictureName="DatabaseProfile2!" Tag="" Clicked="ue_502"/>
+          <LargeButton Text="Listado Despachos Unidad x Mantenimiento" PictureName="Destination!" Tag="" Clicked="ue_503"/>
+          <LargeButton Text="Listado Despachos Externos" PictureName="DataManip!" Tag="" Clicked="ue_504"/>
+          <LargeButton Text="Listado Tanqueos" PictureName="DatabaseProfile1!" Tag="" Clicked="ue_505"/>
+          <LargeButton Text="Despachos x Unidad" PictureName="DBAdmin!" Tag="" Clicked="ue_506"/>
+           <LargeButton Text="Despachos x Chofer" PictureName="DBConnect1!" Tag="" Clicked="ue_507"/>
+       </Panel>        
+ </Category>
+   <Category Text="Compras" Enabled="true" Tag="compras" Visible="true">
+        <Panel Text="Datos" Enabled="true" Tag="compras_p1" PictureName="ControlTreeView!">
+          <LargeButton Text="Proveedores" PictureName="CustomerBig!" Tag="" Clicked="ue_600"/>
+            <LargeButton Text="Servicios Requeridos" PictureName="Custom010a!" Tag="" Clicked="ue_601"/>
+       </Panel>        
+       <Panel Text="Compras" Enabled="true" Tag="compras_p2" PictureName="ControlTreeView!">
+          <LargeButton Text="Compra" PictureName="ShowOnePageSmall!" Tag="" Clicked="ue_602"/>
+          <LargeButton Text="Pendientes x Pagar" PictureName="Custom092!" Tag="" Clicked="ue_603"/>
+          <LargeButton Text="Pendientes Detraccion" PictureName="ExitBig!" Tag="" Clicked="ue_604"/>
+          <SmallButton Text="Cancelados x Proveedor" PictureName="Custom027a!" Tag="" Clicked="ue_605"/>
+          <SmallButton Text="Pendientes x Proveedor" PictureName="Custom027!" Tag="" Clicked="ue_606"/>
+       </Panel>      
+       <Panel Text="Listados" Enabled="true" Tag="compras_p3" PictureName="ControlTreeView!">
+          <LargeButton Text="Listado Compras" PictureName="Custom004a!" Tag="" Clicked="ue_607"/>
+          <LargeButton Text="Editar Fechas Compra" PictureName="Custom015!" Tag="" Clicked="ue_608"/>
+       </Panel>
+       </Category>
+    <!--Final-->    
+    </Categories>
+    <TabButtons>
+   <TabButton PictureName="HelpSmall!" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="Help" PowerTipDescription="Get help." Tag="TabHelp" Visible="true" Clicked="ue_help"/>
+      <TabButton PictureName="ToolkitAbout!" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="Info" PowerTipDescription="Get info." Tag="TabInfo" Visible="true" Clicked="ue_about"/>
+      <TabButton PictureName="NotFound!" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="Cerrar" PowerTipDescription="Get info." Tag="Cerrar" Visible="true" Clicked="ue_cerrar_popup"/>
+      </TabButtons>
+  </RibbonItems>
+</RibbonBar>
