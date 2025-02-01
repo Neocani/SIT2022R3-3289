@@ -1,3 +1,5 @@
+tar -xf SIT_v2022R3_Installer.zip
+
 move .\CloudAppPublisher .\SIT_v2022R3\CloudAppPublisher
 
 copy .\cloudapplauncher.js /Y .\SIT_v2022R3\js\cloudapplauncher.js
